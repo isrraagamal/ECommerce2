@@ -1,0 +1,38 @@
+.prodimage {
+  width: 100px;
+  height: 70px;
+}
+table tr,table th, table td{
+  background-color: var(--whiteGray) !important;
+}
+table h3 {
+  font-size: 18px;
+  color: #000;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+table td
+,table th
+{
+  vertical-align: middle !important;
+}
+
+@media (min-width:320px) {
+  .contain{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+  }
+  .prodimage{
+    width: 80px;
+    height: 50px;
+   text-align: center;
+  }
+  .desc h3{
+ font-size: 10px;
+  }
+  .desc p{
+ font-size: 12px;
+  }
+}
